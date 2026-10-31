@@ -43,7 +43,7 @@ YORのシミュレーションモデルを作成し、YOR(https://yourownrobot.a
 ### Step 0：開発環境の準備
 > 構築手順は [docs/setup.md](docs/setup.md)（`bash scripts/setup.sh` で自動構築）
 
-このプロジェクトではUbuntu の中（/home/expo7/TabulaSense）に必要な編集ファイルを用意します。
+このプロジェクトではUbuntu の中（/home/expo7/Kichi-Kichi）に必要な編集ファイルを用意します。
 
 ### Step 1：シミュレーション上にロボットを構築
 - XLeRobotのモデルをMuJoCoに読み込む
@@ -68,17 +68,31 @@ model_path = 結果
 model_path = Path("scene.xml")
 ```
 これだと、Python は「ターミナルで今いるフォルダにある scene.xml」を探します。別のフォルダからスクリプトを実行すると、見つからないことがあります。
-今回の目的は、/home/expo7/TabulaSense/sim/xlerobot/scene.xmlというパスを指定することです。ここで以下のコードを書きます。
+今回の目的は、/home/expo7/Kichi-Kichi/sim/xlerobot/scene.xmlというパスを指定することです。ここで以下のコードを書きます。
 ```python
 model_path = Path(__file__).resolve().with_name("scene.xml")
 ```
 Path(__file__).resolve()のうち、__file__ は実行中の .py ファイルのパスです。Path(__file__) は、そのパスを Path 形式にします。
 .resolve() は、相対パスなら絶対パスに変換し、パスを整理します。このあと、.with_name("scene.xml") をつなげると、ファイル名を置き換えて scene.xml のパスを作れます。
 
-
-
-
-
-**コア技術(仮想シミュレーションアルゴリズム)**
-
-動画からまず仮想空間に、動画より推測した物体の3D環境を構築する。さらに動きがある物体は、その動きから物理演算を予想してシミュレーションに反映する。そして動画と同じ動きをシミュレーションで再現し、そこから物体の物理挙動を大量にシミュレーションし、ユーザーが修正を加えながらあらゆる環境での物理挙動をVLAに学習させていく。そしてその物理挙動を学習したAIは、特定の指示(例：動画で学習させた触手の動きで、今度は別の物体に絡みつく様子を動画生成)に対応できるVLAになる。これを使用してVLMをファインチューニングしていく。つまり、動画から物理演算を逆算し、シミュレーター内で無限にバリエーション（Synthetic Data：合成データ）を生成してVLAに学習させる
+この次にこのXMLファイルを読み込み、MuJoCoのモデルを作ってmodelという変数に代入します。
+まずMuJoCoの関数にファイルパスとして渡すためにパスをstr(model_path)で文字列に変換します。
+次にこのXMLを読み込んでmujoco.MjModel.from_xml_pathでロボットや床、関節などのモデル定義を作ります。
+```python
+model = mujoco.MjModel.from_xml_path(str(model_path))
+```
+これでmodelはロボットの構造や設定を表しますが、次は関節の位置や速度など、シミュレーションで変わっていく値を入れていきます。
+```python
+data = mujoco.MjData(model)
+```
+ mujoco.MjDataはシミュレーション中に変化する状態を扱うクラスになります。
+次にモデルを表示するビューアを起動します。with を使うことで、ブロックを抜けたときにビューアが適切に終了します。
+```python
+with mujoco.viewer.launch_passive(model, data) as viewer:
+```
+最後にビューアが開いている間、シミュレーションを1ステップ進めます。ステップごとにロボットの状態が更新されます。最後にシミュレーションの状態をビューアの表示に反映します。
+```python
+    while viewer.is_running():
+        mujoco.mj_step(model, data)
+        viewer.sync()
+```        
