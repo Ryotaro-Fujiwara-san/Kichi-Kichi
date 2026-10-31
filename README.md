@@ -96,3 +96,5 @@ with mujoco.viewer.launch_passive(model, data) as viewer:
         mujoco.mj_step(model, data)
         viewer.sync()
 ```        
+これを起動すると以下のようになります。
+<img width="1365" height="693" alt="スクリーンショット 2026-10-31 163151" src="https://github.com/user-attachments/assets/59a77b46-42ca-446d-a1da-739f2a409af9" />
