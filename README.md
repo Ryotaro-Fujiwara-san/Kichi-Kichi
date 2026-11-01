@@ -108,7 +108,7 @@ with mujoco.viewer.launch_passive(model, data) as viewer:
 最初にMuJoCoのモデルに台車固定のカメラを一つ定義します。xlerobot.xml の<body name="chassis"> の中に、カメラ要素を追加します。
 
 ```python
-      <camera name="main_camera" pos="0.5 0.5 0.5" euler="-30 0 45" fovy="45"/>
+      <camera name="main_camera" pos="-0.35 0 0.95" xyaxes="0 -1 0 0.34 0 0.94" fovy="70"/>
 ```
 これで pos="0.5 0.5 0.5は親ボディからの位置で順にX,Y,Z座標で単位はメートルです。euler="-30 0 45"はX,Y,Z軸まわりの回転角です。そしてfovy="45"でカメラの縦方向の視野角となります。
 次にカメラ画像を一枚取得して位置と向きが合っているか確認します。まずこのカメラのライブ映像を見るために、MuJoCoビューアの視点をmain_cameraに切り替えます。
@@ -129,3 +129,62 @@ with viewer.lock():
                 mujoco.mj_step(model,data)
 ```
 これで一時的にviewer.lock()で鍵をとり、  mujoco.mj_step(model,data)を実行し、ブロックを抜けると鍵を自動で返却する仕組みです。ここでwithを使うことで、処理中にエラーが起きても鍵を自動で返す仕組みになります。
+次にMuJoCoのカメラ映像を１フレーム作る処理を行います。
+ループのたびに実行すると、現在の状態に合わせて画像が更新されます。
+```python
+renderer.update_scene(data, camera="main_camera")
+```
+次に準備した描写内容を画像として生成し、imageに入れます。これによりPythonで扱える画像データを作ります。
+```python
+image_bgr = cv2.cvtColor(image,cv2.COLOR_RGB2BGR)
+```
+これはMuJoCoが返した画像の色の並びをOpenCV用に変換しています。なぜならOpenCVの表示にそのままRGB画像を渡すと、赤と青が入れ替わって見えることがあります。だから表示前に変換しています。
+最後にカメラ映像のウィンドウで"q"キーが押されたらループを終了する処理をします。
+```python
+if cv2.waitKey(1)& 0xFF==ord("q"):
+                break
+```python
+ここでcv2.waitKey(1)はOpenCVのウィンドウでキー入力を約１ミリ秒定期し、これでウィンドウの表示を更新します。
+そして& 0xFFでキーコードの下位8ビットだけを取り出します。これが文字qのキーコードと同じかどうか識別します。
+最後にtryブロックが終わった後に、MuJoCoの画像レンダラーを閉じ、OpenCVが開いた画像ウィンドウをすべて閉じます。
+```python
+finally:
+    renderer.release()
+    cv2.destroyAllWindows()
+```
+全体のコードは以下の通りです。
+```python
+from pathlib import Path
+import time
+
+import mujoco
+import mujoco.viewer
+import cv2
+
+model_path = Path(__file__).resolve().with_name("scene.xml")
+
+model = mujoco.MjModel.from_xml_path(str(model_path))#
+data = mujoco.MjData(model)
+
+renderer = mujoco.Renderer(model, height=480, width=640)
+try:
+    with mujoco.viewer.launch_passive(model,data)as viewer:
+        while viewer.is_running():
+            with viewer.lock():
+                mujoco.mj_step(model,data)
+                renderer.update_scene(data, camera="main_camera")
+                image = renderer.render()
+            viewer.sync()
+
+            image_bgr = cv2.cvtColor(image,cv2.COLOR_RGB2BGR)
+            cv2.imshow("main_camerar",image_bgr)
+            if cv2.waitKey(1)& 0xFF==ord("q"):
+                break
+
+finally:
+    renderer.close()
+    cv2.destroyAllWindows()
+
+
+```
+
