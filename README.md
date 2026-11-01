@@ -118,3 +118,14 @@ with mujoco.viewer.launch_passive(model, data) as viewer:
 ```python
 renderer = mujoco.Renderer(model, height=480, width=640)
 ```
+これでmujoco.Rendererで画像を生成するレンダラーを作成します。
+```python
+with mujoco.viewer.launch_passive(model,data)as viewer:
+```
+この行ではlaunch_passiveでビューアを開き、起動したビューアをviewerという変数で扱えるようにします。
+そしてビューアが開いている間、つまりviewer.is_running():が起動している間はビューアとシミュレーション状態を共有しながらシミュレーションを１ステップずつ進めるようにします。しかしMuJoCoでは、Pythonのプログラムとビューアが、ロボットの状態（関節の角度や位置など）を共有しています。片方が状態を書き換えている途中に、もう片方が同時に読んだり書いたりすると、処理がぶつかる可能性があります。そこで以下の処理をします。
+```python
+with viewer.lock():
+                mujoco.mj_step(model,data)
+```
+これで一時的にviewer.lock()で鍵をとり、  mujoco.mj_step(model,data)を実行し、ブロックを抜けると鍵を自動で返却する仕組みです。ここでwithを使うことで、処理中にエラーが起きても鍵を自動で返す仕組みになります。
