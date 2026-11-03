@@ -60,4 +60,7 @@ simulation_app = SimulationAPP({"headless": False})
 ```python
 from isaacsim.simulation_app.utils import open_stage
 ```
-これで既存のフォルダの環境を呼び出します。
+これで既存のフォルダの環境を呼び出します。次にシーンファイルの場所を変数に入れる行を追加します
+```python
+usd_path = r"C:\Users\expo7\Kichi-Kichi\isaac\1103.usd"
+```
