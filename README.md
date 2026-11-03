@@ -50,7 +50,7 @@ YORのシミュレーションモデルを作成し、YOR(https://yourownrobot.a
 最初に、Issac SimをPythonから起動するために以下の行を追加します。
 
 ```python
-from isaacsim import Simulation
+from isaacsim import SimulationApp
 ```
 次はこの起動機能を使ってシミュレーションを開く行を追加します。
 ```python
@@ -63,4 +63,13 @@ from isaacsim.simulation_app.utils import open_stage
 これで既存のフォルダの環境を呼び出します。次にシーンファイルの場所を変数に入れる行を追加します
 ```python
 usd_path = r"C:\Users\expo7\Kichi-Kichi\isaac\1103.usd"
+```
+さらにusd_path に入れたUSDシーンを開き、開けたかどうか（True または False）を stage_opened に記録します。
+```python
+stage_opened = open_stage(usd_path)
+```
+次にIsaac Simが終了するまで画面と処理を更新し続ける処理を実装します。
+```python
+While simulation_app.is_running():
+    simulation_app.update()
 ```
