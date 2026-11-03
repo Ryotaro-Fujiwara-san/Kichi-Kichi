@@ -42,6 +42,12 @@ YORのシミュレーションモデルを作成し、YOR(https://yourownrobot.a
 <img width="1214" height="663" alt="スクリーンショット 2026-11-03 165537" src="https://github.com/user-attachments/assets/c28b6478-51df-45db-8d51-cfb896d4587f" />
 これをVScodeで制御するようにしていきたいと思います。
 
+
 ### Step 1 自律走行（探索）：
 まず部屋を自律的に探索し、地図をマッピングする機能を開発していきたいと思います。
+具体的な開発に入る前に、Isaac Simが今開いているシーンの中に、左右の車輪ジョイントを見つけられるかという確認結果を出力します。これはジョイントを見つけられなかった場合、そもそもコードを書いても車輪が動かないからです。
+
+最初に、Issac SimをPythonから起動するために以下の行を追加します。
+
+from issacsim import Simulation
 
