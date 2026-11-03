@@ -70,6 +70,6 @@ stage_opened = open_stage(usd_path)
 ```
 次にIsaac Simが終了するまで画面と処理を更新し続ける処理を実装します。
 ```python
-While simulation_app.is_running():
+while simulation_app.is_running():
     simulation_app.update()
 ```
