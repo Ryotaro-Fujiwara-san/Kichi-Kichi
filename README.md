@@ -49,5 +49,12 @@ YORのシミュレーションモデルを作成し、YOR(https://yourownrobot.a
 
 最初に、Issac SimをPythonから起動するために以下の行を追加します。
 
-from issacsim import Simulation
+```python
+from isaacsim import Simulation
+```
+次はこの起動機能を使ってシミュレーションを開く行を追加します。
+```python
+simulation_app = SimulationAPP({"headless": False})
+```
+ここでSimulationAppはIsaac Simを起動するクラスです。また{"headless": False}でheadless は画面を表示せずに動かすかどうかで、False は「画面を表示する」という意味です。さらにこれを起動したIsaac Simを simulation_app という名前で覚えておきます。
 
