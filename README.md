@@ -57,4 +57,7 @@ from isaacsim import Simulation
 simulation_app = SimulationAPP({"headless": False})
 ```
 ここでSimulationAppはIsaac Simを起動するクラスです。また{"headless": False}でheadless は画面を表示せずに動かすかどうかで、False は「画面を表示する」という意味です。さらにこれを起動したIsaac Simを simulation_app という名前で覚えておきます。
-
+```python
+from isaacsim.simulation_app.utils.stage import open_stage
+```
+これで既存のフォルダの環境を呼び出します。
