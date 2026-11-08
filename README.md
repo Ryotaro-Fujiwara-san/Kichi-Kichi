@@ -38,38 +38,13 @@ YORのシミュレーションモデルを作成し、YOR(https://yourownrobot.a
 
 ### Step 0：開発環境の準備
 今回はisaac simを用いてシミュレーションを行いたいと思います。
-今回は台車が付いていて、なおかつ両腕とカメラが付いているAlophaを使用したいと思います。
-<img width="1214" height="663" alt="スクリーンショット 2026-11-03 165537" src="https://github.com/user-attachments/assets/c28b6478-51df-45db-8d51-cfb896d4587f" />
+今回は台車が付いていて、なおかつ両腕とカメラが付いている機体を使用したいと思います。
+
+https://robotmabel.github.io/website/
+
+
 これをVScodeで制御するようにしていきたいと思います。
 
 
 ### Step 1 自律走行（探索）：
 まず部屋を自律的に探索し、地図をマッピングする機能を開発していきたいと思います。
-具体的な開発に入る前に、Isaac Simが今開いているシーンの中に、左右の車輪ジョイントを見つけられるかという確認結果を出力します。これはジョイントを見つけられなかった場合、そもそもコードを書いても車輪が動かないからです。
-
-最初に、Issac SimをPythonから起動するために以下の行を追加します。
-
-```python
-from isaacsim import SimulationApp
-```
-次はこの起動機能を使ってシミュレーションを開く行を追加します。
-```python
-simulation_app = SimulationAPP({"headless": False})
-```
-ここでSimulationAppはIsaac Simを起動するクラスです。また{"headless": False}でheadless は画面を表示せずに動かすかどうかで、False は「画面を表示する」という意味です。さらにこれを起動したIsaac Simを simulation_app という名前で覚えておきます。
-```python
-from isaacsim.simulation_app.utils import open_stage
-```
-これで既存のフォルダの環境を呼び出します。次にシーンファイルの場所を変数に入れる行を追加します
-```python
-usd_path = r"C:\Users\expo7\Kichi-Kichi\isaac\1103.usd"
-```
-さらにusd_path に入れたUSDシーンを開き、開けたかどうか（True または False）を stage_opened に記録します。
-```python
-stage_opened = open_stage(usd_path)
-```
-次にIsaac Simが終了するまで画面と処理を更新し続ける処理を実装します。
-```python
-while simulation_app.is_running():
-    simulation_app.update()
-```
