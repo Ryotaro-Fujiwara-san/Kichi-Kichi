@@ -32,7 +32,11 @@ Kichi-Kichi は、施設内を移動し、テーブルの上にある「片付�
 
 ## 開発目標（MVP） / Development goals (MVP)
 
-MABELのシミュレーションモデルを作成し、助成金で購入しさらにPoCを行う。YORのソフトはアップデートのたびにクラウドを通して遠隔で更新されるようにする。
+MABELのシミュレーションモデルを作成し、助成金で購入しさらにPoCを行う。
+
+まず手始めに以下のコースを受講・修了する。
+https://www.coursera.org/specializations/reinforcement-learning
+
 
 
 
@@ -44,7 +48,3 @@ https://robotmabel.github.io/website/
 
 
 これをVScodeで制御するようにしていきたいと思います。
-
-
-### Step 1 自律走行（探索）：
-まず部屋を自律的に探索し、地図をマッピングする機能を開発していきたいと思います。
