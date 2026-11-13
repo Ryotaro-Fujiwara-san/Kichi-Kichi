@@ -38,8 +38,7 @@ MABELのシミュレーションモデルを作成し、助成金で購入しさ
 NVIDIA DLIのコース(NVIDIA NCA-GENM)受講・修了する。
 https://pasqualepillitteri.it/en/news/25084/nvidia-ai-courses-certifications-dli-guide
 
-次はこれ
-https://www.coursera.org/specializations/reinforcement-learning
+
 
 
 
