@@ -37,7 +37,7 @@ MABELのシミュレーションモデルを作成し、助成金で購入しさ
 まず手始めに以下のコースを受講・修了する。
 https://www.coursera.org/specializations/reinforcement-learning
 
-次にNVIDIA DLIのコース(NCP-AAI,NCA-GENM)を受講・修了する。
+次にNVIDIA DLIのコース(NCP-AAI)を受講・修了する。
 https://pasqualepillitteri.it/en/news/25084/nvidia-ai-courses-certifications-dli-guide
 
 「講座を終えたら、まずは最新論文を読み解きながら物理シミュレータを動かすことから始めます。講座で学んだ基礎理論を土台にして、第三者視点から一人称視点を予測する研究（Ego-Exo4D関連など）や、映像からロボットを動かす最新モデル（Diffusion PolicyやVLAなど）の論文を読み込み、現在の研究者がどこまでできていて、何が課題なのかを把握します。同時に、PC上の仮想空間（Isaac LabやMuJoCoなど）でロボットを動かせる環境を作り、論文の手法をコードで再現できるようにします。
