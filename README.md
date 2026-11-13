@@ -32,7 +32,7 @@ Kichi-Kichi は、施設内を移動し、テーブルの上にある「片付�
 
 ## 開発目標（MVP） / Development goals (MVP)
 
-MABELのシミュレーションモデルを作成し、助成金で購入しさらにPoCを行う。
+MABEL(https://robotmabel.github.io/website/)のシミュレーションモデルを作成し、助成金で購入しさらにPoCを行う。
 
 まず手始めに以下のコースを受講・修了する。
 NVIDIA DLIのコース(NVIDIA NCA-GENM)受講・修了する。
