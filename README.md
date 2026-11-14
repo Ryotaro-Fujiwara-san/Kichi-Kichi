@@ -34,9 +34,9 @@ Kichi-Kichi は、施設内を移動し、テーブルの上にある「片付�
 
 MABEL(https://robotmabel.github.io/website/)のシミュレーションモデルを作成し、助成金で購入しさらにPoCを行う。
 
-まず手始めに以下のコースを受講・修了する。(Deep Learning Specialization,Machine Learning Specialization)
+まず手始めに以下のコースを受講・修了する。(Deep Learning Specialization)
 https://www.deeplearning.ai/specializations/deep-learning
-https://www.deeplearning.ai/specializations/deep-learning
+
 
 次に以下の資格を受講する。
 NVIDIA DLIのコース(NVIDIA NCA-GENM)受講・修了する。
