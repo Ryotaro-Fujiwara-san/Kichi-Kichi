@@ -44,6 +44,26 @@ NVIDIA DLIのコース(NVIDIA NCA-GENM)受講・修了する。
 https://pasqualepillitteri.it/en/news/25084/nvidia-ai-courses-certifications-dli-guide
 
 
+箇条書き ① Fundamentals of Deep Learning（深層学習・PyTorch実装の基礎 / 証明書あり） WSU Events - Washing…
+箇条書き URL: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-01+V1
+箇条書き ② Building AI Agents With Multimodal Models（マルチモーダル・VLMエージェント構築 / 証明書あり・講師主導ワークショップ） WSU Events - Washing… +1
+箇条書き URL: https://www.nvidia.com/en-us/training/instructor-led-workshops/
+箇条書き ※ワークショップ一覧ページから開催日程を選んで申し込みます。日程が合わない場合は、カタログ（https://learn.nvidia.com/en-us/training/find-training ）で「Multimodal」または「Vision Language」と検索して自習コースで代替してください。
+2. NCA-GENM 受験（ここで1つ目の認定資格を取得）
+上記2つを終えたら、そのまま認定試験を受験します。
+箇条書き ③ NCA-GENM 試験申込・詳細ページ（NVIDIA-Certified Associate: Generative AI Multimodal）
+箇条書き URL: https://www.nvidia.com/en-us/learn/certification/generative-ai-multimodal-associate/
+3. フィジカルAI転職向けにプラスする推奨2コース（証明書あり・自習）
+「リアルタイム映像AIの最適化」と「シミュレーションによる合成データ生成」の証明書を追加し、履歴書・職務経歴書での説得力を高めます。
+箇条書き ④ Building Real-Time Video AI Applications（DeepStream / TensorRTによるリアルタイム映像AI / 証明書あり）
+箇条書き URL: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-IV-01+V1
+箇条書き ⑤ Bootstrapping Computer Vision Models with Synthetic Data（Omniverse Replicatorを使った合成データ生成 / 証明書あり） NVIDIA
+箇条書き URL: https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-04+V1
+4. ロボティクス・フィジカルAI実践仕上げ（無料公式パス）
+DLI証明書だけでなく、実際のロボットシミュレーション（Isaac Sim）と世界基盤モデル（Cosmos）を触った実績を作るための公式学習パスです。 Orange Logic
+箇条書き ⑥ Physical AI & Robotics 公式ラーニングパス（Isaac Sim / Isaac Lab / Cosmos 関連教材への入口） Dayananda Sagar Univ…
+箇条書き URL: https://docs.nvidia.com/learning/physical-ai/index.html
+箇条書き ロボティクス総合パス: https://www.nvidia.com/en-us/learn/learning-path/robotics/
 
 
 
