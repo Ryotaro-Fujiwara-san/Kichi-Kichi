@@ -39,7 +39,7 @@ https://www.deeplearning.ai/specializations/deep-learning
 
 https://www.deeplearning.ai/specializations/machine-learning
 
-次に以下の資格を受講する。(NCA-GENM)
+次に以下の資格を受講する。(Gen AI Multimodal Certification(500$コースは除外),Robotics Training)
 
 https://dam-cdn.nvd.orangelogic.com/AssetLink/e3d6dnl072557c05146bwe4gfu2ykw7o.pdf
 
