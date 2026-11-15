@@ -73,12 +73,7 @@ NCA-GENMの試験範囲（深層学習の基礎、マルチモーダルデータ
 - [ ] **Physical AI Learning Path**（Isaac Sim / Isaac Lab / Cosmos ハンズオン）
   - 🔗 [Physical AI Docs](https://docs.nvidia.com/learning/physical-ai/index.html)
 - [ ] **Robotics Learning Path**（ロボティクス開発公式パス）
-  - 🔗 [Robotics Learning Path](https://www.nvidia.com/en-us/learn/learning-path/robotics/)
-- [ ] **Next Step（上位資格の検討）**: NCA-PAI（Physical AI Associate） / NCP-OUSD
-  - 🔗 [NVIDIA Certification Hub](https://www.nvidia.com/en-us/learn/certification/)
-
-
-
+  - 🔗 [Robotics Learning Path](https://www.nvidia.com/en-us/learn/learning-path/
 
 
 「講座を終えたら、まずは最新論文を読み解きながら物理シミュレータを動かすことから始めます。講座で学んだ基礎理論を土台にして、第三者視点から一人称視点を予測する研究（Ego-Exo4D関連など）や、映像からロボットを動かす最新モデル（Diffusion PolicyやVLAなど）の論文を読み込み、現在の研究者がどこまでできていて、何が課題なのかを把握します。同時に、PC上の仮想空間（Isaac LabやMuJoCoなど）でロボットを動かせる環境を作り、論文の手法をコードで再現できるようにします。
