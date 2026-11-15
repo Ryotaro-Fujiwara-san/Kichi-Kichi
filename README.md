@@ -41,7 +41,7 @@ https://www.deeplearning.ai/specializations/machine-learning
 
 次に以下の資格を受講する。
 Fundamentals of Reinforcement Learning（アルバータ大学）
-https://www.coursera.org/learn/fundamentals-of-reinforcement-learning/home/module/1
+https://www.coursera.org/learn/fundamentals-of-reinforcement-learning
 
 Mastering ROS 2 for Robotics Programming 専門講座
 https://www.coursera.org/specializations/packt-mastering-ros-2-for-robotics-programming
