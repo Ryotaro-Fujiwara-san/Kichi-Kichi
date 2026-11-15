@@ -39,41 +39,10 @@ https://www.deeplearning.ai/specializations/deep-learning
 
 https://www.deeplearning.ai/specializations/machine-learning
 
-次に以下の資格を受講する。
+次に以下の資格を受講する。(NCA-GENM)
 
-### Phase 1: NCA-GENM 対策 ＆ マルチモーダルAI基礎（DLI 証明書）
+https://dam-cdn.nvd.orangelogic.com/AssetLink/e3d6dnl072557c05146bwe4gfu2ykw7o.pdf
 
-NCA-GENMの試験範囲（深層学習の基礎、マルチモーダルデータ処理、VLMエージェント、推論最適化）に直結する推奨コースを受講します。
-
-- [ ] **Fundamentals of Deep Learning**（深層学習・PyTorch実装の基礎 / 証明書あり）
-  - 🔗 [Course Link](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-01+V1)
-- [ ] **Building AI Agents With Multimodal Models**（マルチモーダルVLMエージェント構築 / 証明書あり・ワークショップ）
-  - 🔗 [Workshop Portal](https://www.nvidia.com/en-us/training/instructor-led-workshops/)
-  - ※日程が合わない場合は [DLI Training Catalog](https://learn.nvidia.com/en-us/training/find-training) からマルチモーダル/VLM関連の自習コースを受講
-- [ ] **NCA-GENM 認定試験の受験・合格**（NVIDIA-Certified Associate: Generative AI Multimodal）
-  - 🔗 [Certification Details](https://www.nvidia.com/en-us/learn/certification/generative-ai-multimodal-associate/)
-
----
-
-### Phase 2: フィジカルAI専門性の証明（エッジ推論・合成データ / DLI 証明書）
-
-フィジカルAI開発で不可欠となる「リアルタイム映像処理（DeepStream / TensorRT）」と「シミュレーションによる合成データ生成（Omniverse Replicator）」の証明書を取得します。
-
-- [ ] **Building Real-Time Video AI Applications**（リアルタイム映像AI最適化 / 証明書あり）
-  - 🔗 [Course Link](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-IV-01+V1)
-- [ ] **Bootstrapping Computer Vision Models with Synthetic Data**（合成データ生成と物体検出モデル学習 / 証明書あり）
-  - 🔗 [Course Link](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-04+V1)
-
----
-
-### Phase 3: ロボティクス・世界モデル実践（ポートフォリオ構築）
-
-公式の無償ラーニングパスを活用し、物理シミュレーション（Isaac Sim / Isaac Lab）や世界基盤モデル（Cosmos）を用いた実装デモを本リポジトリに蓄積します。
-
-- [ ] **Physical AI Learning Path**（Isaac Sim / Isaac Lab / Cosmos ハンズオン）
-  - 🔗 [Physical AI Docs](https://docs.nvidia.com/learning/physical-ai/index.html)
-- [ ] **Robotics Learning Path**（ロボティクス開発公式パス）
-  - 🔗 [Robotics Learning Path](https://www.nvidia.com/en-us/learn/learning-path/
 
 
 「講座を終えたら、まずは最新論文を読み解きながら物理シミュレータを動かすことから始めます。講座で学んだ基礎理論を土台にして、第三者視点から一人称視点を予測する研究（Ego-Exo4D関連など）や、映像からロボットを動かす最新モデル（Diffusion PolicyやVLAなど）の論文を読み込み、現在の研究者がどこまでできていて、何が課題なのかを把握します。同時に、PC上の仮想空間（Isaac LabやMuJoCoなど）でロボットを動かせる環境を作り、論文の手法をコードで再現できるようにします。
