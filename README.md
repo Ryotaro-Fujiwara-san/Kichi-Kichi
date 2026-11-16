@@ -39,14 +39,19 @@ https://www.deeplearning.ai/specializations/deep-learning
 
 https://www.deeplearning.ai/specializations/machine-learning
 
+
+拡散モデルの仕組み
+https://www.coursera.org/projects/how-diffusion-models-work-project
+
+Fundamentals of Reinforcement Learning（アルバータ大学）
+https://www.coursera.org/learn/fundamentals-of-reinforcement-learning
+
 大規模言語モデルによる生成AI
 https://www.coursera.org/learn/generative-ai-with-llms
 
 検索拡張世代（RAG）
 https://www.coursera.org/learn/retrieval-augmented-generation-rag
 
-Fundamentals of Reinforcement Learning（アルバータ大学）
-https://www.coursera.org/learn/fundamentals-of-reinforcement-learning
 
 Modern AI Models for Vision and Multimodal Understanding
 https://www.coursera.org/learn/modern-ai-models-vision-multimodal-understanding#credits
