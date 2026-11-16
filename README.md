@@ -32,32 +32,32 @@ Kichi-Kichi は、施設内を移動し、テーブルの上にある「片付�
 
 ## 開発目標（MVP） / Development goals (MVP)
 
-MABEL(https://robotmabel.github.io/website/)のシミュレーションモデルを作成し、助成金で購入しさらにPoCを行う。
+MABEL(https://robotmabel.github.io/website/)のシミュレーションモデルを作成し、助成金で購入しさらにPoCを実施
 
-まず手始めに以下のコースを受講・修了する。(Machine Learning Specialization,Deep Learning Specialization)
+(Machine Learning Specialization,Deep Learning Specialization)
 https://www.deeplearning.ai/specializations/deep-learning
 
 https://www.deeplearning.ai/specializations/machine-learning
 
-次に以下の資格を受講する。
+
 Fundamentals of Reinforcement Learning（アルバータ大学）
 https://www.coursera.org/learn/fundamentals-of-reinforcement-learning
 
 Modern AI Models for Vision and Multimodal Understanding
 https://www.coursera.org/learn/modern-ai-models-vision-multimodal-understanding#credits
 
-Mastering ROS 2 for Robotics Programming 専門講座
-https://www.coursera.org/specializations/packt-mastering-ros-2-for-robotics-programming
 
 Modern Robotics: Mechanics, Planning, and Control Specialization（ノースウェスタン大学 / Kevin Lynch教授）
 https://www.coursera.org/specializations/modernrobotics
-
 
 Visual Perception for Self-Driving Cars（トロント大学）
 https://www.coursera.org/learn/visual-perception-self-driving-cars
 
 3D Reconstruction - Multiple Viewpoints（コロンビア大学）
 https://www.coursera.org/learn/3d-reconstruction-multiple-viewpoints
+
+Mastering ROS 2 for Robotics Programming 専門講座
+https://www.coursera.org/specializations/packt-mastering-ros-2-for-robotics-programming
 
 「講座を終えたら、まずは最新論文を読み解きながら物理シミュレータを動かすことから始めます。講座で学んだ基礎理論を土台にして、第三者視点から一人称視点を予測する研究（Ego-Exo4D関連など）や、映像からロボットを動かす最新モデル（Diffusion PolicyやVLAなど）の論文を読み込み、現在の研究者がどこまでできていて、何が課題なのかを把握します。同時に、PC上の仮想空間（Isaac LabやMuJoCoなど）でロボットを動かせる環境を作り、論文の手法をコードで再現できるようにします。
 次に、あなたの起業の核となる新しい数式とアルゴリズムの組み立てに挑みます。既存の論文の多くは「人間の動きをそのまま真似させる数式」を使っていますが、それでは人間の無駄な動きや遅さまでコピーしてしまいます。そこであなたは、離れたカメラの映像と解説音声から「作業の空間構造」と「達成すべき目的」だけを抜き出し、ロボットの一人称視点へ座標変換する幾何学的な数式を組みます。さらに、「人間の手順をなぞるのではなく、最短距離・最小エネルギーでその目的を達成するほど高得点になる」という独自の報酬関数（目的関数）を数式として設計し、仮想空間内の強化学習でロボットに人間以上の効率的な動きを自力で発見させます。
