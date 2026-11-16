@@ -39,6 +39,11 @@ https://www.deeplearning.ai/specializations/deep-learning
 
 https://www.deeplearning.ai/specializations/machine-learning
 
+大規模言語モデルによる生成AI
+https://www.coursera.org/learn/generative-ai-with-llms
+
+検索拡張世代（RAG）
+https://www.coursera.org/learn/retrieval-augmented-generation-rag
 
 Fundamentals of Reinforcement Learning（アルバータ大学）
 https://www.coursera.org/learn/fundamentals-of-reinforcement-learning
