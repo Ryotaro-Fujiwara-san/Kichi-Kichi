@@ -43,6 +43,9 @@ https://www.deeplearning.ai/specializations/machine-learning
 Fundamentals of Reinforcement Learning（アルバータ大学）
 https://www.coursera.org/learn/fundamentals-of-reinforcement-learning
 
+Modern AI Models for Vision and Multimodal Understanding
+https://www.coursera.org/learn/modern-ai-models-vision-multimodal-understanding#credits
+
 Mastering ROS 2 for Robotics Programming 専門講座
 https://www.coursera.org/specializations/packt-mastering-ros-2-for-robotics-programming
 
