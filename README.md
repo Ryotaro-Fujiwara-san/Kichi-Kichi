@@ -32,7 +32,9 @@ Kichi-Kichi は、施設内を移動し、テーブルの上にある「片付�
 
 ## 開発目標（MVP） / Development goals (MVP)
 
-MABEL(https://robotmabel.github.io/website/)のシミュレーションモデルを作成し、助成金で購入しさらにPoCを実施
+LeRobotまたはXLeRobotを購入してテスト。
+その後にMABEL(https://robotmabel.github.io/website/)のシミュレーションモデルを作成し、助成金で購入しさらにPoCを実施
+
 
 (Machine Learning Specialization,Deep Learning Specialization)
 https://www.deeplearning.ai/specializations/deep-learning
