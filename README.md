@@ -46,7 +46,7 @@ https://docs.isaacsim.omniverse.nvidia.com/latest/robot_setup_tutorials/tutorial
 
 LeRobotでの検証
 https://wiki.seeedstudio.com/lerobot_so100m_new/
-https://www.juxitech.com/ja/products/lekiwi-embodied-intelligence-mobile-robotic-car?variant=53048295620917
+
 
 ## 後からやるもの
 
