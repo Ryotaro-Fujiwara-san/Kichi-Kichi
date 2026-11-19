@@ -71,6 +71,9 @@ https://www.coursera.org/learn/3d-reconstruction-multiple-viewpoints
 Mastering ROS 2 for Robotics Programming 専門講座
 https://www.coursera.org/specializations/packt-mastering-ros-2-for-robotics-programming
 
+Humanoid workflow: Train locomotion in AGILE and deploy in Isaac Sim — Isaac Sim Documentation
+https://docs.isaacsim.omniverse.nvidia.com/latest/robot_setup_tutorials/tutorial_humanoid_workflow.html
+
 LeRobot(またはLewkiw)での検証
 https://wiki.seeedstudio.com/lerobot_so100m_new/
 https://www.juxitech.com/ja/products/lekiwi-embodied-intelligence-mobile-robotic-car?variant=53048295620917
