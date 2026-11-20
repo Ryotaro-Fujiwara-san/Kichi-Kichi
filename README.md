@@ -34,8 +34,14 @@ Kichi-Kichi は、施設内を移動し、テーブルの上にある「片付�
 
 
 ## 最優先でやるもの
+
+学費援助を申請
+
+Machine Learning Specialization
+https://www.coursera.org/specializations/machine-learning-introduction
+
 Deep Learning Specialization
-https://www.deeplearning.ai/specializations/deep-learning
+https://www.coursera.org/specializations/deep-learning
 
 
 Modern AI Models for Vision and Multimodal Understanding
