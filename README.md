@@ -44,6 +44,4 @@ https://docs.isaacsim.omniverse.nvidia.com/latest/robot_setup_tutorials/tutorial
 LeRobotでの検証
 https://wiki.seeedstudio.com/lerobot_so100m_new/
 
-MABEL
-(https://robotmabel.github.io/website/)のシミュレーションモデルを作成し、助成金で購入しさらにPoCを実施
 　
