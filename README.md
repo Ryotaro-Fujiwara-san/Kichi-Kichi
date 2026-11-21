@@ -11,9 +11,10 @@ Kichi-Kichi は、施設内を移動し、テーブルの上にある「片付�
 
 ## 最優先でやるもの
 
+全て英語でアウトプット
 
-E資格 for Global AI Engineer(E資格取得)
-https://zero2one.jp/product/eshikaku-for-global-ai-engineer-02/
+E資格 
+https://ai-academy.deepsquare.deloitte.jp/courses/e-qualification/
 
 R検定
 https://robotmate-hub.com/r-certification/
