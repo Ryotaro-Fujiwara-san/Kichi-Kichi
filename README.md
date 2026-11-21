@@ -11,13 +11,6 @@ Kichi-Kichi は、施設内を移動し、テーブルの上にある「片付�
 
 ## 最優先でやるもの
 
-学費援助を申請、OneNoteに英語で勉強
-
-Machine Learning Specialization
-https://www.coursera.org/specializations/machine-learning-introduction
-
-Deep Learning Specialization
-https://www.coursera.org/specializations/deep-learning
 
 E資格 for Global AI Engineer(E資格取得)
 https://zero2one.jp/product/eshikaku-for-global-ai-engineer-02/
