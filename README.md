@@ -15,7 +15,7 @@
 
 (Python 3 エンジニア認定データ分析試験,G検定,E資格,R検定)
 
-①これをメインに進める(2027/6ヶ月)
+①これをメインに最優先で終わらせる(2027/6ヶ月)
 https://ai-academy.deepsquare.deloitte.jp/courses/ai-engineer-set/
 
 ②Python 3 エンジニア認定データ分析模擬試験
