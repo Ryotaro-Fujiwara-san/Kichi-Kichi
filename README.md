@@ -22,7 +22,9 @@ https://ai-academy.deepsquare.deloitte.jp/courses/ai-engineer-set/
 を受けて本番(いつでも受講可能)へ
 https://study.prime-strategy.co.jp/study/py3an3/
 
-③2027/3月にG検定受講
+③2027/3月にG検定模擬試験を受けて本番に挑戦
+https://study-ai.com/generalist/
+
 
 ④2027/8月にE資格模擬試験を受けて本番に挑戦
 [JDLA E資格 問題集｜全120問【2026年版・無料】ディープラーニングエンジニア試験対策 | サキトの花](https://sakitoo.com/jdla-e-shikaku-mondaishu/)
