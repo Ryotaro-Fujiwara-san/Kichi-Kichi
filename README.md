@@ -26,7 +26,7 @@ https://study.prime-strategy.co.jp/study/py3an3/
 
 ④2027/8月にE資格挑戦
 
-隙間時間にR検定(いつでも受講可能/自学習)
+隙間時間にR検定(ロボットスペシャリスト C1を最終目標) (いつでも受講可能/自学習)
 https://robotmate-hub.com/r-certification/
 
 
