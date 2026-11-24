@@ -24,7 +24,8 @@ https://study.prime-strategy.co.jp/study/py3an3/
 
 ③2027/3月にG検定受講
 
-④2027/8月にE資格挑戦
+④2027/8月にE資格模擬試験を受けて本番に挑戦
+[JDLA E資格 問題集｜全120問【2026年版・無料】ディープラーニングエンジニア試験対策 | サキトの花](https://sakitoo.com/jdla-e-shikaku-mondaishu/)
 
 隙間時間にR検定(ロボットスペシャリスト C1を最終目標) (いつでも受講可能/自学習)
 https://robotmate-hub.com/r-certification/
