@@ -13,6 +13,9 @@
 
 全て英語でアウトプット
 
+Python 3 エンジニア認定データ分析試験(eラーニング後)
+https://pythonic-exam.com/exam/analyist
+
 E資格 
 https://ai-academy.deepsquare.deloitte.jp/courses/e-qualification/
 
