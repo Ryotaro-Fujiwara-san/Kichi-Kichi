@@ -15,7 +15,7 @@
 
 (Python 3 エンジニア認定データ分析試験,E資格)
 
-①これをメインに進める
+①これをメインに進める(2027/1〜8月)
 https://ai-academy.deepsquare.deloitte.jp/courses/ai-engineer-set/
 
 ②Python 3 エンジニア認定データ分析模擬試験
