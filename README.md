@@ -14,10 +14,19 @@
 全て英語でアウトプット
 
 (Python 3 エンジニア認定データ分析試験,E資格)
+
+①これをメインに進める
 https://ai-academy.deepsquare.deloitte.jp/courses/ai-engineer-set/
 
+②Python 3 エンジニア認定データ分析模擬試験
+を受けて本番(いつでも受講可能)へ
+https://study.prime-strategy.co.jp/study/py3an3/
 
-R検定
+③2027/3月にG検定受講
+
+④2027/8月にE資格挑戦
+
+隙間時間にR検定(いつでも受講可能/自学習)
 https://robotmate-hub.com/r-certification/
 
 
