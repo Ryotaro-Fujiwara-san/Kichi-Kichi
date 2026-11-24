@@ -14,7 +14,7 @@
 全て英語でアウトプット
 
 Python 3 エンジニア認定データ分析試験(eラーニング後)
-https://pythonic-exam.com/exam/analyist
+[https://pythonic-exam.com/exam/analyist](https://www.hellowork.mhlw.go.jp/kensaku/GECA150010.do?screenId=GECA150010&action=dispDetailBtn&kRNShubetsu_Detail=01&shinseiNendo_Detail=08&tDFKNo_Detail=07&kRNTsuban_Detail=0036)
 
 E資格 
 https://ai-academy.deepsquare.deloitte.jp/courses/e-qualification/
