@@ -12,7 +12,7 @@
 ## 気になる論文
 1. Diffusion Policy
 https://arxiv.org/abs/2303.04137
-2. \pi_0 (Pi-Zero)
+2. \pi_0 (Pi-Zero) 〜最新バージョンまで
 https://arxiv.org/abs/2410.24164
 3. UniSkill
 https://arxiv.org/abs/2505.08787
