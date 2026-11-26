@@ -23,6 +23,7 @@ https://arxiv.org/abs/2410.21845
 6. Real2Sim2Real / Active Tactile Exploration
 • PhysTwin (Real2Sim2Real for Deformable Objects): https://arxiv.org/abs/2506.17972
 • Active Tactile Exploration (Tactile-Driven Real2Sim): https://arxiv.org/abs/2409.16287
+
 7.https://arxiv.org/pdf/2502.19417
 
 ## 最優先でやるもの
