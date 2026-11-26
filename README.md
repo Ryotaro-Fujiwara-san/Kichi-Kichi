@@ -26,6 +26,8 @@ https://arxiv.org/abs/2410.21845
 
 7. https://arxiv.org/pdf/2502.19417
 
+8. [2503.00779] Phantom: Training Robots Without Robots Using Only Human Videos
+
 ## 最優先でやるもの
 
 全て英語でアウトプット
