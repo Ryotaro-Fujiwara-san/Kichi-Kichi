@@ -9,6 +9,21 @@
 さらに、カメラで熟練者の作業を撮影する → 仮想空間内に物体や環境を再構築 → シミュレーションで学習するという流れも作ります。また、初めて扱う未知の物体に対しても、ロボットは自律的に学習して対応します。触覚センサー付きのハンドを使って物体を回転させながら多角的に形を捉え、さらに力を加えてどれくらい変形するかを観測することで、その物体の硬さを予測します。こうして得られた形状や硬さの情報は、仮想空間（シミュレータ）内に立体データとして再現し、保存します。
 データが完成したら、仮想空間で大量のシミュレーション（強化学習）を行い、その物質を自在に扱える知識として保存します。まずLeRobotで検証し、最終的には、MABEL( https://robotmabel.github.io/website/ )のような安価な機体が特別なファインチューニング作業を通さずに、特定のタスクをこなせることで導入コストを下げ、資金調達を実現します。また将来的には複数台の学習データを共有することで、タスクを自動的に増やします。
 
+## 気になる論文
+1. Diffusion Policy
+https://arxiv.org/abs/2303.04137
+2. \pi_0 (Pi-Zero)
+https://arxiv.org/abs/2410.24164
+3. UniSkill
+https://arxiv.org/abs/2505.08787
+4. 3DFlowAction
+https://arxiv.org/abs/2506.06199
+5. HIL-SERL
+https://arxiv.org/abs/2410.21845
+6. Real2Sim2Real / Active Tactile Exploration
+• PhysTwin (Real2Sim2Real for Deformable Objects): https://arxiv.org/abs/2506.17972
+• Active Tactile Exploration (Tactile-Driven Real2Sim): https://arxiv.org/abs/2409.16287
+
 ## 最優先でやるもの
 
 全て英語でアウトプット
