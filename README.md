@@ -28,6 +28,17 @@ https://arxiv.org/abs/2410.21845
 
 8. [2503.00779] Phantom: Training Robots Without Robots Using Only Human Videos
 
+1. Titans
+https://arxiv.org/abs/2501.00663
+2. TTT (Test-Time Training)
+https://arxiv.org/abs/2407.04620
+3. TRM (Tiny Recursion Model)
+https://github.com/SamsungSAILMontreal/TinyRecursiveModels
+4. CTM (Continuous Thought Machine)
+https://github.com/SakanaAI/continuous-thought-machines
+5. MambaInLlama
+https://arxiv.org/abs/2408.15237
+
 ## 最優先でやるもの
 
 全て英語でアウトプット
