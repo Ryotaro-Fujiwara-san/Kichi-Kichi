@@ -42,6 +42,8 @@ https://github.com/SakanaAI/continuous-thought-machines
 5. MambaInLlama
 https://arxiv.org/abs/2408.15237
 
+5.  https://www.alphaxiv.org/ja/abs/2611.32654
+
 ## 最優先でやるもの
 
 全て英語でアウトプット
